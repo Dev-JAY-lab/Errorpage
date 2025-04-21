@@ -1,0 +1,71 @@
+<style>
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.error-box {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+}
+.error-box h1 {
+    font-size: 5rem;
+    color: #ff6347;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+.error-box p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out;
+}
+.btn-error {
+    background-color: #ff6347;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-error:hover {
+    background-color: #e53e36;
+}
+.error-illustration {
+    margin-top: 20px;
+    font-size: 10rem;
+    color: #ff6347;
+    animation: bounce 2s infinite;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+</style>
