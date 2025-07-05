@@ -48,8 +48,8 @@ img{
 }
 .error-illustration {
     margin-top: 20px;
-    font-size: 10rem;
-    color: #ff6347;
+    font-size: 20rem;
+    color: #fff;
     animation: bounce 2s infinite;
 }
 
