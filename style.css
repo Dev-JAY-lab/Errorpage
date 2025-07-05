@@ -1,5 +1,5 @@
 body {
-    background-color: #f7f7f7;
+    background-color: rgb(53, 4, 102);
     font-family: Arial, sans-serif;
 }
 .error-container {
@@ -40,6 +40,8 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+img{
+    width:100%;
 .btn-error:hover {
     background-color: #e53e36;
 }
