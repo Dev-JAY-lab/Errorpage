@@ -26,7 +26,7 @@ body {
 }
 .error-box p {
     font-size: 1.2rem;
-    color: #333;
+    color: #fff;
     margin-bottom: 30px;
     animation: fadeIn 2s ease-in-out;
 }
@@ -38,13 +38,13 @@ body {
     font-size: 1.1rem;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in;
 }
 img{
     width:100%;
 }
 .btn-error:hover {
-    background-color: #e53e36;
+    background-color: #611409;
 }
 .error-illustration {
     margin-top: 20px;
